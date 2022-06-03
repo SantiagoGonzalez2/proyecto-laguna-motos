@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../Imagenes/fondocross.jpg);
+    background-attachment: local;
+    background-position: fixed;
+    background-size: 100rem;
+}
+
+h1 {
+    background-color: rgba(26, 44, 56, 0.792);
+    color: rgb(203, 203, 28);
+    font-style: italic;
+    font-size: 53px;
+    border: solid 3px black;
+    margin-top: 0px;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 30px;
+    text-transform: uppercase;
+    padding: .5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: gold;
+}
+
+nav ul li:hover {
+    transform: scale(2.0);
+    transition: .3s;
+}
+
+main {
+    margin: 30px 30px 100px 30px;
+}
+
+body main p {
+    font-size: 20px;
+    border: solid 3px black;
+    margin: 100px;
+    padding: 15px;
+    background-color: rgba(26, 44, 56, 0.792);
+}
+
+footer div a:hover {
+    transform: scale(3.0);
+    transition: .3s
+}
+
+footer div a {
+    color: gold;
+    margin: 4px;
+}
+
+h3 {
+    display: inline-block;
+    color: white;
+    border: solid 3px black;
+    padding: 15px;
+    background-color: rgba(26, 44, 56, 0.942);
+    font-size: 42px;
+    font-style: italic;
+    text-align: center;
+    margin-left: 15%;
+}
+
+img {
+
+    border: solid 3px black;
+    margin: 30px;
+}
+
+main div {
+    display: inline-block;
+    text-align: center;
+    margin-left: 35%;
+}
+
+section img {
+    margin-left: 6%;
+
+}
+
+.lista {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(26, 44, 56, 0.792);
+}
+
+
+.parrafo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.footer {
+    background-color: rgba(26, 44, 56, 0.792);
+    font-size: 20px;
+    margin-top: .5%;
+    border: solid 3px black;
+    position: static;
+    margin-bottom: 0px;
+    padding: 15px;
+
+}
+
+.infofooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    grid-area: formulario;
+    text-align: center;
+    padding: 2% 10px 20px 10px;
+    background-color: rgba(26, 44, 56, 0.792);
+    color: rgb(203, 203, 28);
+    border: solid 3px black;
+    font-size: 30px;
+}
+
+.formulario input,
+textarea {
+    border-radius: 33px;
+    text-align: center;
+}
+
+.boton {
+    width: 20%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+    border-radius: 33px;
+}
+
+.boton:hover {
+    background-color: gold;
+    transform: scale(1.5);
+    transition: .3s
+}
+
+
+.titulomotos {
+    margin-left: 30%;
+}
+
+.galeria {
+    background-color: rgba(26, 44, 56, 0.792);
+    border: solid 3px black;
+    text-align: center;
+    padding: 1%;
+
+}
+
+/* GRID */
+.container {
+    display: grid;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    grid-template-columns: 1.1fr 0.9fr 1fr 1fr;
+    grid-template-areas:
+        ". . . ."
+        "info info videos videos"
+        ". . . .";
+}
+
+.videos {
+    grid-area: videos;
+    background-color: rgba(26, 44, 56, 0.792);
+    border: solid black 3px;
+
+}
+
+.videos p {
+    text-align: center;
+    padding-top: 9%;
+}
+
+.info {
+    grid-area: info;
+    padding: 1%;
+    background-color: rgba(26, 44, 56, 0.792);
+    border: solid black 3px;
+}
+
+.info p {
+    font-size: 20px;
+}
+
+.contenidoc {
+    display: grid;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    grid-template-columns: 0fr 0.9fr 1fr 0fr;
+    grid-template-areas:
+        ". . . ."
+        "fomrulario formulario sectionc sectionc"
+        ". . . .";
+}
+
+.sectionc {
+    grid-area: sectionc;
+    background-color: rgba(26, 44, 56, 0.792);
+    border: solid black 3px
+}
+
+.sectionc div a {
+    color: gold;
+    margin: 4px;
+    font-size: 20px;
+}
+
+/* PRUEBA GRID completa */
+
+/* PRUEBA GRID COMPLETA */
+
+.containerM {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+        "headerNav headerNav headerNav"
+        "sectionA sectionA aside"
+        "sectionA sectionA aside"
+        "footer footer footer";
+}
+
+.headerNav {
+    grid-area: headerNav;
+}
+
+.footer {
+    grid-area: footer;}
+
+
+.sectionA {
+    grid-area: sectionA;
+    background-color: rgba(26, 44, 56, 0.792);
+    border: solid black 3px;
+    padding: 3%;
+    margin-top: 5%;
+    display: inline-block;
+    margin-bottom: 5%;
+}
+
+.aside {
+    grid-area: aside;
+    background-color: rgba(26, 44, 56, 0.792);
+    border: solid black 3px;
+    padding: 3%;
+    margin-top: 10%;
+    display: inline-block;
+    margin-bottom: 10%;
+}
