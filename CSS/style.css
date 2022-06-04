@@ -223,7 +223,7 @@ textarea {
     font-size: 20px;
 }
 
-/* PRUEBA GRID COMPLETA */
+/* motosM*/
 
 .containerM {
     display: grid;
@@ -283,13 +283,15 @@ textarea {
 
 
 
-@media (max-width: 400px) {
-    
+@media (max-width: 600px) {
+
+    /* INDEX */
     .container {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+
     .videos p {
         display: none;
     }
@@ -298,12 +300,50 @@ textarea {
         flex-direction: column;
     }
 
+    h1 {
+        text-align: center;
+    }
+
     nav {
         padding: 10px;
     }
 
-    
+    nav ul li:hover {
+        transform: none;
 
+    }
 
+    nav li {
+        text-align: center;
+    }
 
+    /* CONTACTO */
+    .contenidoc {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sectionc img {
+        max-height: 220px;
+    }
+
+    .aside {
+        display: none
+    }
+
+    /* GALERIA */
+    .galeria {
+        background-color: transparent;
+        border: none;
+    }
+
+    /* NOSOTROS */
+
+    .titulomotos {
+        margin-left: 4%;
+    }
+
+    .parrafo {
+        text-align: justify;
+    }
 }
