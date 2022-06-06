@@ -4,7 +4,8 @@
 }
 
 body {
-    background-image: white
+    background-color: #303030;
+
 }
 
 h1 {
@@ -16,8 +17,13 @@ h1 {
     margin-top: 0px;
     padding: 10px;
     text-align: center;
-    font-family:'Bebas Neue';
-    font-size: 100px;
+    font-family: 'Bebas Neue';
+    font-size: 60px;
+}
+
+h1:hover {
+    color: gold;
+    transition: 2s
 }
 
 nav ul li {
@@ -30,8 +36,8 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #B8B3A9;
-    font-family:'Bebas Neue';
-    font-size:30px ;
+    font-family: 'Bebas Neue';
+    font-size: 20px;
 }
 
 nav ul li:hover {
@@ -39,21 +45,18 @@ nav ul li:hover {
     transition: .3s;
 }
 
+nav ul li a:hover {
+    color: gold;
+}
+
 main {
     margin: 30px 30px 100px 30px;
 }
 
-body main p {
-    font-size: 20px;
-    border: solid 3px black;
-    margin: 100px;
-    padding: 15px;
-    background-color: rgba(26, 44, 56, 0.792);
-}
-
 footer div a:hover {
     transform: scale(3.0);
-    transition: .3s
+    transition: .3s;
+    color: gold;
 }
 
 footer div a {
@@ -63,14 +66,12 @@ footer div a {
 
 h3 {
     display: inline-block;
-    color: white;
-    border: solid 3px black;
+    color: gold;
     padding: 15px;
-    background-color: rgba(26, 44, 56, 0.942);
     font-size: 42px;
-    font-style: italic;
-    text-align: center;
-    margin-left: 15%;
+    font-family: 'Bebas Neue';
+margin-left: 35%;
+
 }
 
 img {
@@ -87,7 +88,6 @@ main div {
 
 section img {
     margin-left: 6%;
-    animation: animacionImagen 2s ease-in-out infinite;
 
 }
 
@@ -100,9 +100,10 @@ section img {
 
 
 .parrafo {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Bebas Neue';
     color: white;
-    text-align: center;
+    text-align: justify;
+font-size: 22px;
 }
 
 .footer {
@@ -129,10 +130,10 @@ section img {
     grid-area: formulario;
     text-align: center;
     padding: 2% 10px 20px 10px;
-    background-color: rgba(26, 44, 56, 0.792);
-    color: rgb(203, 203, 28);
-    border: solid 3px black;
+    background-color: #303030;
+    color: white;
     font-size: 30px;
+    font-family: 'Bebas Neue';
 }
 
 .formulario input,
@@ -157,13 +158,9 @@ textarea {
 }
 
 
-.titulomotos {
-    margin-left: 30%;
-}
 
 .galeria {
-    background-color: rgba(26, 44, 56, 0.792);
-    border: solid 3px black;
+    box-shadow: 7px 7px 15px #000000;
     text-align: center;
     padding: 1%;
 
@@ -204,9 +201,10 @@ textarea {
 .info p {
     font-size: 20px;
     background-color: #303030;
-    font-family:'Bebas Neue';
+    font-family: 'Bebas Neue';
 
 }
+
 .info img {
     margin: 0;
     border: none;
@@ -221,18 +219,33 @@ textarea {
         ". . . ."
         "fomrulario formulario sectionc sectionc"
         ". . . .";
+    box-shadow: 0px 0px 16px 10px rgb(116, 115, 115);
+
+
 }
 
 .sectionc {
     grid-area: sectionc;
-    background-color: rgba(26, 44, 56, 0.792);
-    border: solid black 3px
+    background-color: #303030;
 }
 
 .sectionc div a {
+    color: white;
+    margin: 10px;
+    font-size: 30px;
+}
+
+.sectionc div a:hover {
     color: gold;
-    margin: 4px;
-    font-size: 20px;
+}
+
+.sectionc p {
+    font-family: 'Bebas Neue';
+    font-size: 25px;
+}
+
+.sectionc img {
+    margin-left: 7%;
 }
 
 /* motosM*/
@@ -258,22 +271,33 @@ textarea {
 
 .sectionA {
     grid-area: sectionA;
-    background-color: rgba(26, 44, 56, 0.792);
-    border: solid black 3px;
     padding: 3%;
     margin-top: 5%;
+    margin-left: 1%;
     display: inline-block;
     margin-bottom: 5%;
+    box-shadow: 7px 7px 15px #000000
+}
+
+.sectionA img {
+    box-shadow: 7px 7px 15px #000000
+}
+
+.sectionA img:hover {
+    filter: blur(5px);
+    transition: 2s;
 }
 
 .aside {
     grid-area: aside;
-    background-color: rgba(26, 44, 56, 0.792);
-    border: solid black 3px;
     padding: 3%;
     margin-top: 10%;
     display: inline-block;
     margin-bottom: 10%;
+}
+
+.aside p {
+    box-shadow: 7px 7px 15px #000000
 }
 
 
