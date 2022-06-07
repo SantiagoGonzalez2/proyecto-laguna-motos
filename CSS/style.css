@@ -280,7 +280,7 @@ textarea {
 
 .sectionA img:hover {
     filter: blur(5px);
-    transition: 2s;
+    transition: .5s;
 }
 
 .aside {
