@@ -40,13 +40,9 @@ nav ul li a {
     font-size: 20px;
 }
 
-nav ul li:hover {
-    transform: scale(2.0);
-    transition: .3s;
-}
-
 nav ul li a:hover {
     color: gold;
+    transition: 1s
 }
 
 main {
@@ -70,7 +66,7 @@ h3 {
     padding: 15px;
     font-size: 42px;
     font-family: 'Bebas Neue';
-margin-left: 35%;
+    margin-left: 35%;
 
 }
 
@@ -102,8 +98,8 @@ section img {
 .parrafo {
     font-family: 'Bebas Neue';
     color: white;
-    text-align: justify;
-font-size: 22px;
+    text-align: center;
+    font-size: 22px;
 }
 
 .footer {
@@ -192,7 +188,6 @@ textarea {
     grid-area: info;
     padding: 1%;
     margin-left: 10%;
-    border: 1px solid #ccc;
     box-shadow: 7px 7px 15px #000000;
     background-color: #303030;
 
