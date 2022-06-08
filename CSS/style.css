@@ -101,6 +101,11 @@ section img {
     text-align: justify;
     font-size: 22px;
 }
+.parrafo:hover { 
+    color: gold;
+    transition: 1s;
+
+}
 
 .footer {
     background: rgb(48, 48, 48);
