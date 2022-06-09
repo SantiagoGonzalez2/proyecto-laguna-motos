@@ -102,6 +102,14 @@ section img {
     font-size: 22px;
 }
 
+#parrafo {
+    font-family: 'Bebas Neue';
+    color: white;
+    text-align: center;
+    font-size: 22px;
+}
+
+
 .footer {
     background: rgb(48, 48, 48);
     background: linear-gradient(0deg, rgba(48, 48, 48, 1) 84%, rgba(98, 94, 94, 1) 100%);
