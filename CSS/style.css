@@ -145,6 +145,13 @@ textarea {
     border-radius: 33px;
     text-align: center;
 }
+.formulario textarea:focus {
+    background-color: rgb(149, 147, 147);
+}
+
+.formulario input:focus{
+    background-color: rgb(149, 147, 147);
+}
 
 .boton {
     width: 20%;
