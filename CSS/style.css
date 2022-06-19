@@ -113,6 +113,23 @@ section img {
     font-size: 22px;
 }
 
+.prueba{
+    display: flex;
+    flex-direction: row;
+}
+.prueba aside{
+    margin-left: 1%;
+    padding: 1%;
+    height: 15%;
+    align-content: center;
+}
+.prueba aside img{
+   margin-left: 45px;
+}
+#img{
+    margin-left: 160px;
+}
+
 
 .footer {
     background: rgb(48, 48, 48);
@@ -173,8 +190,6 @@ textarea {
     transition: .3s
 }
 
-
-
 .galeria {
     box-shadow: 7px 7px 15px #000000;
     text-align: center;
@@ -193,6 +208,7 @@ textarea {
         "info info videos videos"
         ". . . .";
 }
+  
 
 .videos {
     grid-area: videos;
@@ -341,7 +357,21 @@ textarea {
     .lista {
         flex-direction: column;
     }
-
+    .prueba  {
+        display: flex;
+        flex-direction:column ;
+        align-items: center; 
+    }
+    .prueba aside {
+        width: 90%;
+    }
+    .prueba aside img{
+        width: 200px;
+        height: 230px;
+        align-items: center;
+    }
+  
+  
     h1 {
         text-align: center;
     }
