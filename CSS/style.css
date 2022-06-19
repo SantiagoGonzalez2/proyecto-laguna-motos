@@ -7,6 +7,9 @@ body {
     background-color: #303030;
 
 }
+a{
+    text-decoration: none;
+}
 
 h1 {
     background-color: #303030;
@@ -20,6 +23,7 @@ h1 {
     font-family: 'Bebas Neue';
     font-size: 60px;
 }
+
 
 h1:hover {
     color: gold;
@@ -145,11 +149,12 @@ textarea {
     border-radius: 33px;
     text-align: center;
 }
+
 .formulario textarea:focus {
     background-color: rgb(149, 147, 147);
 }
 
-.formulario input:focus{
+.formulario input:focus {
     background-color: rgb(149, 147, 147);
 }
 
@@ -320,6 +325,15 @@ textarea {
         align-items: center;
     }
 
+    .info {
+        margin-left: 0%;
+
+    }
+
+    .info p {
+        padding: 3%;
+    }
+
     .videos p {
         display: none;
     }
@@ -353,25 +367,38 @@ textarea {
 
     .sectionc img {
         max-height: 220px;
+        margin-left: 20%;
     }
+
+    /* motos */
 
     .aside {
         display: none
     }
 
+    .sectionA {
+        margin-left: 38%;
+        box-shadow: none;
+    }
+
     /* GALERIA */
     .galeria {
-        background-color: transparent;
-        border: none;
+        box-shadow: none;
+
     }
+
 
     /* NOSOTROS */
 
     .titulomotos {
-        margin-left: 4%;
+        margin-left: 15%;
     }
 
     .parrafo {
         text-align: justify;
     }
+    .parrafo img {
+        display: none;
+    }
+
 }
