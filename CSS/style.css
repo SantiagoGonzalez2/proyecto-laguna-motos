@@ -249,9 +249,7 @@ textarea {
     grid-template-areas:
         ". . . ."
         "fomrulario formulario sectionc sectionc"
-        ". . . .";
-    box-shadow: 0px 0px 16px 10px rgb(116, 115, 115);
-
+        ". . . .";  
 
 }
 
